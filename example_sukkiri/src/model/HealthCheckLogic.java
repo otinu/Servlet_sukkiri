@@ -1,6 +1,7 @@
 package model;
 
 public class HealthCheckLogic {
+
 	public void execute(Health health) {
 		double weight = health.getWeight();
 		double height = health.getHeight();
