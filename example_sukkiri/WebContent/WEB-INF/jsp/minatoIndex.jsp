@@ -14,6 +14,7 @@ SiteEV siteEV = (SiteEV) application.getAttribute("siteEV");
     <body>
         <h1>湊くんのページへようこそ！！</h1>
         <p>
+        <%-- MinatoIndexサーブレットに対して「action=like」を埋め込んでリクエストを送信する --%>
             <a href="/example_sukkiri/MinatoIndex?action=like">よいね</a>:
             <%= siteEV.getLike() %>人
             <a href="/example_sukkiri/MinatoIndex?action=dislike">よくないね</a>:
